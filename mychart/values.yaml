@@ -5,10 +5,11 @@
 replicaCount: 1
 
 image:
-  repository: devpatela933/java-springboot-eks
+  repository: 185439933271.dkr.ecr.ap-south-1.amazonaws.com/my-ecr-repo
+  #stored in AWS repository
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: latest
+  tag:""
 
 imagePullSecrets: []
 nameOverride: ""
